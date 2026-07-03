@@ -1,38 +1,52 @@
 # Power BI Data Cleaning Challenge
 
-## Project Overview
+Transforming messy Excel data into a clean, analysis-ready dataset using Power Query in Power BI.
 
-This project demonstrates how a messy Excel dataset was transformed into a clean, analysis-ready dataset using Power Query in Power BI.
+---
 
-## Files Included
+## 🔴 1. Raw Dataset (Before Cleaning)
 
-- Dirty_Data.xlsx
-- Clean_Data.xlsx
-- Data_Transformation.pbix
+![Dirty Data](dirty-data.png)
 
-## Data Quality Issues
-
-- Merged categories
-- Merged amounts
-- Missing values
+The original dataset had:
+- Merged headers
 - Inconsistent formatting
-- Analysis-unfriendly structure
+- Unstructured layout
+- Difficult analysis structure
 
-## Transformations Performed
+---
 
+## 🟡 2. Data Transformation (Power Query)
+
+![Power Query](power-query.png)
+
+Key transformations performed:
 - Fill Down
 - Split Columns
+- Unpivot Data
 - Change Data Types
-- Remove Errors
 - Remove Duplicates
-- Restructure Data
+- Clean structure for analysis
 
-## Tools Used
+---
 
+## 🟢 3. Clean Dataset (After Cleaning)
+
+![Clean Data](clean-data.png)
+
+Final output:
+- Structured dataset
+- Analysis-ready format
+- Suitable for dashboards and reporting
+
+---
+
+## 🛠 Tools Used
 - Microsoft Excel
 - Power BI
 - Power Query
 
-## Outcome
+---
 
-The final dataset became clean, structured, and ready for reporting and dashboard creation.
+## 📊 Project Outcome
+This project demonstrates how raw messy data can be transformed into meaningful insights-ready data using Power BI.
